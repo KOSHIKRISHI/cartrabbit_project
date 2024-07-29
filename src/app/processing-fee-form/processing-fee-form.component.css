@@ -1,0 +1,85 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="radio"],
+  input[type="number"],
+  input[type="date"] {
+    margin-bottom: 1em;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"] {
+    width: 90%;
+    padding: .5em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  input[type="radio"] {
+    margin-right: .5em;
+  }
+  
+  button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f9f9f9;
+    margin: .5em 0;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: .5em;
+  }
+  
+ 
+  .search-container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .search-container label {
+    margin-right: 0.5em;
+  }
+  
+  .search-bar {
+    flex: 1;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 0.9em;
+  }
+  
